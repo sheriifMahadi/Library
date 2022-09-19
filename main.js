@@ -1,5 +1,5 @@
 
-let myLibrary = []
+let myLibrary = [{title: 'A tale of blood and iron', author: 'AlterEgo' no_pages:234, read=true}]}]
 
 function Book(id, title, author, no_pages, read=false) {
     this.id = id
