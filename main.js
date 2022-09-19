@@ -1,5 +1,5 @@
 
-let myLibrary = [{title: 'A tale of blood and iron', author: 'AlterEgo' no_pages:234, read=true}]}]
+let myLibrary = []
 
 function Book(id, title, author, no_pages, read=false) {
     this.id = id
@@ -8,7 +8,8 @@ function Book(id, title, author, no_pages, read=false) {
     this.no_pages = no_pages
     this.read = read
   }
-
+Let book1 = new Book(1, 'A tale of blood and iron', 'AlterEgo', 234, false)
+MyLibrary.push(book1)
 let form = document.querySelector('#add-book')
 let home = document.querySelector('.book-container')
 home.innerHTML = myLibrary
