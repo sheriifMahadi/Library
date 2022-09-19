@@ -8,8 +8,8 @@ function Book(id, title, author, no_pages, read=false) {
     this.no_pages = no_pages
     this.read = read
   }
-// Let book1 = new Book(1, 'A tale of blood and iron', 'AlterEgo', 234, false)
-// myLibrary.push(book1)
+Let book1 = new Book(1, 'A tale of blood and iron', 'AlterEgo', 234, false)
+myLibrary.push(book1)
 let form = document.querySelector('#add-book')
 let home = document.querySelector('.book-container')
 home.innerHTML = myLibrary
